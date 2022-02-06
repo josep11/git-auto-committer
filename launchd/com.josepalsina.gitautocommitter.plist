@@ -1,0 +1,44 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+
+    <key>Label</key>
+    <string>com.josepalsina.gitautocommitter</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+      <key>Hour</key>
+      <integer>9</integer>
+      <key>Minute</key>
+      <integer>55</integer>
+    </dict>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/josepalsina/shell-projects/git-auto-committer/logs/error.log</string>
+
+    <key>StandardOutPath</key>
+    <string>/Users/josepalsina/shell-projects/git-auto-committer/logs/out.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+      <key>PATH</key>
+      <string>
+        <![CDATA[/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin]]>
+      </string>
+    </dict>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/josepalsina/shell-projects/git-auto-committer</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Users/josepalsina/shell-projects/git-auto-committer/run.sh</string>
+    </array>
+
+  </dict>
+</plist>
