@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo e >> dummy_file/file.txt
+echo const a = 5; >> dummy_file/example.js
 git add .
 git ci -m "updated data"
 git push
