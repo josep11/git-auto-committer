@@ -6,3 +6,5 @@ git add .
 git ci -m "updated data"
 git push
 gh pr create --title "The feature is done" --body "Everything works again"
+
+gh pr merge 1 -m
