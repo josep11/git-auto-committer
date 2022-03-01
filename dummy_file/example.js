@@ -11,3 +11,4 @@ const a = 49;
 const a = 10;
 const a = 14;
 const a = 12;
+const a = 44;
