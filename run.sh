@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo -------------
+echo ----------------------------
 date
-echo -------------
+echo ----------------------------
 
 git checkout dev
 rnd=$[ $RANDOM % 40 + 10 ]
