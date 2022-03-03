@@ -40,5 +40,12 @@
       <string>/Users/josepalsina/shell-projects/git-auto-committer/run.sh</string>
     </array>
 
+    <!-- No need for this, but we can run it as a login shell with "-i" -->
+    <!-- <array>
+        <string>/bin/zsh</string>
+        <string>-c</string>
+        <string>/Users/josepalsina/shell-projects/git-auto-committer/run.sh</string>
+    </array> -->
+
   </dict>
 </plist>
