@@ -1,5 +1,10 @@
 #!/bin/bash
 
+echo -------------
+date
+echo -------------
+
+git checkout dev
 rnd=$[ $RANDOM % 40 + 10 ]
 echo "const a = $rnd;" >> dummy_file/example.js
 git add .
