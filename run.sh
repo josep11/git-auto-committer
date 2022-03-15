@@ -8,6 +8,11 @@ print_date(){
 
 die() { echo "$*" 1>&2 ; exit 1; }
 
+if [ $[RANDOM % 2] -eq 0 ]; then 
+    echo 'random abort today'; 
+    exit 0; 
+fi
+
 [ -f .shell_profile ] && . .shell_profile
 
 print_date
