@@ -48,3 +48,6 @@ const a = 28;
 const a = 44;
 const a = 20;
 const a = 21;
+const a = 47;
+const a = 11;
+const a = 39;
