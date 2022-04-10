@@ -52,3 +52,4 @@ const a = 47;
 const a = 11;
 const a = 39;
 const a = 46;
+const a = 34;
