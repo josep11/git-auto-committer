@@ -112,3 +112,4 @@ const a = 34;
 const a = 30;
 const a = 28;
 const a = 10;
+const a = 36;
