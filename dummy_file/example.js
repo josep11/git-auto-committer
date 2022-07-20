@@ -123,3 +123,4 @@ const a = 17;
 const a = 18;
 const a = 49;
 const a = 27;
+const a = 42;
